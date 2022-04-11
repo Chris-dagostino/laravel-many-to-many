@@ -15,6 +15,7 @@
                     @endif
 
                     <h1>benvenuto {{$user->name}}</h1>
+                    <h3>alla fine del mese mancano:{{$diffInDays}} giorni</h3>
                 </div>
             </div>
         </div>
